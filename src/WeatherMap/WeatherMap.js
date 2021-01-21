@@ -42,7 +42,7 @@ export function WeatherMap(props) {
     };
 
    const handle5Forecast = () => {
-        setBool(!bool);
+        city.length && setBool(!bool);
     };
 
     // console.log(newArr);
