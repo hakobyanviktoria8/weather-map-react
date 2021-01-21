@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/weather-map-react/static/css/main.38c13673.chunk.css",
+    "main.js": "/weather-map-react/static/js/main.54f85a7c.chunk.js",
+    "main.js.map": "/weather-map-react/static/js/main.54f85a7c.chunk.js.map",
+    "runtime-main.js": "/weather-map-react/static/js/runtime-main.be87c4fe.js",
+    "runtime-main.js.map": "/weather-map-react/static/js/runtime-main.be87c4fe.js.map",
+    "static/js/2.f2a14cd3.chunk.js": "/weather-map-react/static/js/2.f2a14cd3.chunk.js",
+    "static/js/2.f2a14cd3.chunk.js.map": "/weather-map-react/static/js/2.f2a14cd3.chunk.js.map",
+    "index.html": "/weather-map-react/index.html",
+    "static/css/main.38c13673.chunk.css.map": "/weather-map-react/static/css/main.38c13673.chunk.css.map",
+    "static/js/2.f2a14cd3.chunk.js.LICENSE.txt": "/weather-map-react/static/js/2.f2a14cd3.chunk.js.LICENSE.txt",
+    "static/media/down.1125861c.svg": "/weather-map-react/static/media/down.1125861c.svg",
+    "static/media/max.bab52f6c.svg": "/weather-map-react/static/media/max.bab52f6c.svg",
+    "static/media/min.11cf2b8a.svg": "/weather-map-react/static/media/min.11cf2b8a.svg",
+    "static/media/up.08570c0f.svg": "/weather-map-react/static/media/up.08570c0f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be87c4fe.js",
+    "static/js/2.f2a14cd3.chunk.js",
+    "static/css/main.38c13673.chunk.css",
+    "static/js/main.54f85a7c.chunk.js"
+  ]
+}
