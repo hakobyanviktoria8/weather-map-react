@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #665F5F;
+}
+:root{
+    font-size: .9vw;
+}
+.weatherMap{
+    padding: 3rem;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 2.5rem;
+
+}
+.form{
+    margin-top: 2.5rem;
+}
+.form input{
+    width: 31rem;
+    height: 3rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #665F5F;
+}
+.form button{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #665F5F;
+    background: #665F5F;
+    color: white;
+    position: relative;
+    right: 2.5rem;
+}
+
+/*weather map main*/
+.weatherMap__main{
+    margin-top: 2.5rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(102, 95, 95, 0.26);
+    padding: 1.5rem 3rem;
+    width: 48rem;
+    height: 21rem;
+}
+.weatherMap__main-div{
+    display: flex;
+}
+.weatherMap__main h2{
+    font-size: 3.5rem;
+}
+/*left*/
+.weatherMap__main-left{
+    width: 60%;
+}
+.weatherMap__main-left .capLetter{
+   text-transform: capitalize;
+}
+.weatherMap__main-left p{
+    font-size: 1.25rem;
+    margin-bottom: .2rem;
+}
+/*right*/
+.weatherMap__main-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherMap__main-right h3{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+.weatherMap__main-right img{
+    width: 18rem;
+    margin: -4rem -1rem;
+}
+.max img, .min img{
+    width: 1rem;
+    margin: .2rem .5rem -2px;
+}
+.max-min{
+    display: flex;
+    margin-top: 1.7rem;
+}
+.max{
+    margin-right: 2rem;
+}
+.max, .min{
+    /*width: 50%;*/
+}
+/*see more*/
+.seeMore{
+    margin-top: 2rem;
+    width: 12rem;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+    font-weight: bold;
+    color: #665F5F;
+    background: none;
+}
+.seeMore img{
+    margin-top: .5rem;
+    width: 3rem;
+}
+.day5Forecast-divs{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    border: 1px solid gainsboro;
+    padding: 1rem;
+}
+.day5Forecast-divs-cart{
+    border: 1px solid ghostwhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: .3rem;
+    padding: .3rem;
+    box-shadow: 0 0 5px gainsboro;
+    width: 9.7rem;
+}
+.day5Forecast-divs-cart .max-min{
+    margin-bottom: .5rem;
+}
+.day5Forecast-divs-cart .max, .day5Forecast-divs-cart .min {
+    display: flex;
+}
+.day5Forecast-divs-cart .max {
+    margin-right: .5rem;
+}
+.day5Forecast-divs-cart .icon{
+    margin-top: -1rem;
+    width: 7rem;
+}
+.day5Forecast-divs-cart .p1{
+    margin-top: -1.5rem;
+}
+.day5Forecast-divs-cart h3{
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+.border{
+    display: flex;
+    flex-direction: row;
+}
+.hr{
+    margin: 1rem 0;
+}
+
+
+
+
